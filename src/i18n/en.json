@@ -1,0 +1,12 @@
+{
+  "home": "Home",
+  "favorites": "Favorites",
+  "search_placeholder": "Search games...",
+  "no_results": "No items found.",
+  "age_range": "Age Range",
+  "publisher": "Publisher",
+  "category": "Category",
+  "back": "Back",
+  "not_found": "Item not found",
+  "footer_text": "Steam Clone made with ♥"
+}
