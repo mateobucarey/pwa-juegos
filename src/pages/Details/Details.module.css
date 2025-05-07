@@ -1,13 +1,80 @@
+.detailsWrapper {
+  background-color: #1b2838;
+  min-height: 100vh;
+  padding: 2rem;
+  width: 100%;
+  box-sizing: border-box;
+}
+
 .details {
-    padding: 20px;
-    max-width: 800px;
-    margin: auto;
-  }
-  
-  .details img {
-    width: 100%;
-    max-height: 300px;
-    object-fit: cover;
-    margin-bottom: 20px;
-  }
-  
+  max-width: 1000px;
+  margin: 0 auto;
+  color: #c7d5e0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h2 {
+  font-size: 2rem;
+  color: #66c0f4;
+  margin-bottom: 1rem;
+  text-shadow: 0 0 5px rgba(102, 192, 244, 0.3);
+}
+
+.coverImage {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 2rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  margin: 0.5rem 0;
+  color: #a0b3c0;
+}
+
+strong {
+  color: #ffffff;
+}
+
+button {
+  margin-top: 2rem;
+  padding: 0.8rem 1.5rem;
+  background-color: #66c0f4;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-weight: bold;
+  color: #0e141b;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #417a9b;
+  color: #fff;
+}
+
+.screenshots {
+  margin-top: 2rem;
+}
+
+.screenshots h3 {
+  margin-bottom: 1rem;
+  color: #66c0f4;
+}
+
+.screenshotGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 1rem;
+}
+
+.screenshot {
+  width: 100%;
+  border-radius: 6px;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.4);
+  object-fit: cover;
+}

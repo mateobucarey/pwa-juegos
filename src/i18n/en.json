@@ -3,10 +3,14 @@
   "favorites": "Favorites",
   "search_placeholder": "Search games...",
   "no_results": "No items found.",
-  "age_range": "Age Range",
   "publisher": "Publisher",
-  "category": "Category",
   "back": "Back",
   "not_found": "Item not found",
-  "footer_text": "Steam Clone made with ♥"
+  "add_to_favorites": "Add to favorites",
+  "remove_from_favorites": "Remove from favorites",
+  "genre": "Genre",
+  "release_date": "Release Date",
+  "requirements": "Requirements",
+  "screenshots": "Screenshots",
+  "loading": "Loading..."  
 }

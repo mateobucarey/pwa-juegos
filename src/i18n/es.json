@@ -3,10 +3,14 @@
   "favorites": "Favoritos",
   "search_placeholder": "Buscar juegos...",
   "no_results": "No se encontraron elementos.",
-  "age_range": "Edad recomendada",
   "publisher": "Editorial",
-  "category": "Categoría",
   "back": "Volver",
   "not_found": "Elemento no encontrado",
-  "footer_text": "Clon de Steam hecho con ♥"
+  "add_to_favorites": "Agregar a favoritos",
+  "remove_from_favorites": "Quitar de favoritos",
+  "genre": "Género",
+  "release_date": "Lanzamiento",
+  "requirements": "Requisitos",
+  "screenshots": "Capturas",
+  "loading": "Cargando..."
 }

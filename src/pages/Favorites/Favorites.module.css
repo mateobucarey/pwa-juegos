@@ -1,11 +1,25 @@
 .container {
-    padding: 20px;
-  }
-  
-  .grid {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    justify-content: center;
-  }
-  
+  padding: 2rem;
+  background-color: #1b2838;
+  min-height: 100vh;
+  color: #c7d5e0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h2 {
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  color: #66c0f4;
+  text-shadow: 0 0 5px rgba(102, 192, 244, 0.3);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 1.5rem;
+}
+
+p {
+  color: #a0b3c0;
+  font-size: 1.1rem;
+}

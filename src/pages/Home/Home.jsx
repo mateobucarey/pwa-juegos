@@ -20,7 +20,7 @@ const Home = () => {
   return (
     <div className={styles.container}>
       <input
-        placeholder={t('search')}
+        placeholder={t('search_placeholder')}
         value={query}
         onChange={(e) => setQuery(e.target.value)}
       />
